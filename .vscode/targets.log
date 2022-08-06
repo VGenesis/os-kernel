@@ -1,5 +1,5 @@
 make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
-File not found - *.asm
+make: *** No rule to make target 'all'.  Stop.
 
 # GNU Make 4.3
 # Built for Windows32
@@ -8,7 +8,7 @@ File not found - *.asm
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Aug 06 10:26:12 2022
+# Make data base, printed on Sat Aug 06 13:56:32 2022
 
 # Variables
 
@@ -25,7 +25,7 @@ VBOX_MSI_INSTALL_PATH = D:\Tools\VirtualBox\
 # environment
 LOCALAPPDATA = C:\Users\VGenesis\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-bb89b372-2edc-4a63-b873-a4f09be65ac6-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-63ef07ec-73f2-426f-a72d-ba85b9b46982-sock
 # environment
 VSCODE_CWD = C:\Program Files\VSCodium
 # environment
@@ -63,7 +63,7 @@ TMP = C:\Users\VGenesis\AppData\Local\Temp
 # default
 .INCLUDE_DIRS = .
 # makefile (from 'Makefile', line 1)
-x86_64_asm_source_files := 
+x86_64_asm_source_files := $(subst ,, )
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -97,7 +97,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 19544
+VSCODE_PID = 5268
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -131,7 +131,7 @@ M2 = C:\Program Files\Maven\apache-maven-3.8.6\bin
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Python310\Scripts\;C:\Python310\;C:\Users\VGenesis\.cargo\bin;D:\Tools\Git\cmd;C:\Program Files\VSCodium\bin;C:\Program Files\Maven\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-18.0.1.1\bin;D:\Tools\NodeJS\;C:\ProgramData\chocolatey\bin;C:\Program Files\PuTTY\;D:\Tools\Docker\Docker\;D:\Tools\Docker\Docker\resources\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\qemu;C:\Program Files\Docker\Docker\resources;D:\Tools\Miniconda;D:\Tools\Miniconda\Library\mingw-w64\bin;D:\Tools\Miniconda\Library\usr\bin;D:\Tools\Miniconda\Library\bin;D:\Tools\Miniconda\Scripts;C:\Users\VGenesis\miniconda3;C:\Users\VGenesis\miniconda3\Library\mingw-w64\bin;C:\Users\VGenesis\miniconda3\Library\usr\bin;C:\Users\VGenesis\miniconda3\Library\bin;C:\Users\VGenesis\miniconda3\Scripts;C:\Users\VGenesis\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\Users\VGenesis\AppData\Roaming\npm
+PATH = C:\Python310\Scripts\;C:\Python310\;C:\Users\VGenesis\.cargo\bin;D:\Tools\Git\cmd;C:\Program Files\VSCodium\bin;C:\Program Files\Maven\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-18.0.1.1\bin;D:\Tools\NodeJS\;C:\ProgramData\chocolatey\bin;C:\Program Files\PuTTY\;D:\Tools\Docker\Docker\;D:\Tools\Docker\Docker\resources\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\qemu;C:\Program Files\Docker\Docker\resources;D:\Tools\Miniconda;D:\Tools\Miniconda\Library\mingw-w64\bin;D:\Tools\Miniconda\Library\usr\bin;D:\Tools\Miniconda\Library\bin;D:\Tools\Miniconda\Scripts;C:\Users\VGenesis\miniconda3;C:\Users\VGenesis\miniconda3\Library\mingw-w64\bin;C:\Users\VGenesis\miniconda3\Library\usr\bin;C:\Users\VGenesis\miniconda3\Library\bin;C:\Users\VGenesis\miniconda3\Scripts;C:\Users\VGenesis\.cargo\bin;C:\Users\VGenesis\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Users\VGenesis\AppData\Roaming\npm;C:\Program Files\qemu;
 # environment
 COMPUTERNAME = VGENESIS
 # default
@@ -174,8 +174,6 @@ OS = Windows_NT
 x86_64_asm_object_files := 
 # default
 MAKE_VERSION := 4.3
-# 'override' directive
-.SHELLSTATUS := 2
 # environment
 PROGRAMFILES(X86) = C:\Program Files (x86)
 # environment
@@ -208,6 +206,8 @@ VSCODE_IPC_HOOK = \\.\pipe\badf6f00235ad50d86958a85cd937ab2-1.68.1-main-sock
 SUFFIXES := 
 # environment
 ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
@@ -215,7 +215,7 @@ PROCESSOR_REVISION = 6001
 # environment
 PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD
 # variable set hash-table stats:
-# Load=101/1024=10%, Rehash=0, Collisions=14/135=10%
+# Load=101/1024=10%, Rehash=0, Collisions=14/132=11%
 
 # Pattern-specific Variable Values
 
@@ -236,7 +236,7 @@ PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-05 18:23:28
+#  Last modified 2022-08-06 13:40:17
 #  File has been updated.
 #  Successfully updated.
 
@@ -283,8 +283,6 @@ all:
 # strcache performance: lookups = 22 / hit rate = 31%
 # hash-table stats:
 # Load=15/8192=0%, Rehash=0, Collisions=0/22=0%
-# Finished Make data base on Sat Aug 06 10:26:12 2022
+# Finished Make data base on Sat Aug 06 13:56:32 2022
 
  
-make: *** No rule to make target 'all'.  Stop.
-
