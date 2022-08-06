@@ -1,0 +1,290 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+File not found - *.asm
+
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sat Aug 06 10:26:12 2022
+
+# Variables
+
+# environment
+SYSTEMDRIVE = C:
+# environment
+JAVA_HOME = C:\Program Files\Java\jdk-18.0.1.1
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\VGenesis
+# environment
+VBOX_MSI_INSTALL_PATH = D:\Tools\VirtualBox\
+# environment
+LOCALAPPDATA = C:\Users\VGenesis\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-bb89b372-2edc-4a63-b873-a4f09be65ac6-sock
+# environment
+VSCODE_CWD = C:\Program Files\VSCodium
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 23
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\VGenesis\AppData\Roaming\VSCodium\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\VGenesis\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# makefile (from 'Makefile', line 1)
+x86_64_asm_source_files := 
+# makefile
+MAKEFLAGS = pqrR
+# environment
+INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
+# environment
+ONEDRIVE = C:\Users\VGenesis\OneDrive
+# environment
+INTELLIJ IDEA COMMUNITY EDITION = D:\Tools\IntelliJ IDEA Community Edition 2022.1.1\bin;
+# makefile
+CURDIR := d:/Tools/Workspace/C/OS
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 19544
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+__PSLOCKDOWNPOLICY = 0
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\VGenesis
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# environment
+M2 = C:\Program Files\Maven\apache-maven-3.8.6\bin
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Python310\Scripts\;C:\Python310\;C:\Users\VGenesis\.cargo\bin;D:\Tools\Git\cmd;C:\Program Files\VSCodium\bin;C:\Program Files\Maven\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-18.0.1.1\bin;D:\Tools\NodeJS\;C:\ProgramData\chocolatey\bin;C:\Program Files\PuTTY\;D:\Tools\Docker\Docker\;D:\Tools\Docker\Docker\resources\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\qemu;C:\Program Files\Docker\Docker\resources;D:\Tools\Miniconda;D:\Tools\Miniconda\Library\mingw-w64\bin;D:\Tools\Miniconda\Library\usr\bin;D:\Tools\Miniconda\Library\bin;D:\Tools\Miniconda\Scripts;C:\Users\VGenesis\miniconda3;C:\Users\VGenesis\miniconda3\Library\mingw-w64\bin;C:\Users\VGenesis\miniconda3\Library\usr\bin;C:\Users\VGenesis\miniconda3\Library\bin;C:\Users\VGenesis\miniconda3\Scripts;C:\Users\VGenesis\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\Users\VGenesis\AppData\Roaming\npm
+# environment
+COMPUTERNAME = VGENESIS
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# environment
+CHOCOLATEYLASTPATHUPDATE = 133025445448454339
+# environment
+LOGONSERVER = \\VGENESIS
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = VGenesis
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MAVEN_HOME = C:\Program Files\Maven\apache-maven-3.8.6
+# environment
+USERDOMAIN = VGENESIS
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := build-x86_64
+# makefile (from 'Makefile', line 2)
+x86_64_asm_object_files := 
+# default
+MAKE_VERSION := 4.3
+# 'override' directive
+.SHELLSTATUS := 2
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = VGENESIS
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\VGenesis\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\VGenesis\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\badf6f00235ad50d86958a85cd937ab2-1.68.1-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 6001
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD
+# variable set hash-table stats:
+# Load=101/1024=10%, Rehash=0, Collisions=14/135=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key d:/Tools/Workspace/C/OS, mtime 1659726997): 10 files, no impossibilities.
+
+# 10 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-05 18:23:28
+#  File has been updated.
+#  Successfully updated.
+
+build-x86_64:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 10):
+	mkdir -p dist/x86_64 && \
+	x86_64-elf-ld -n -o dist/x86_64/kernel.bin -T target/x86_64/linker.ld $(x86_64_asm_object_files) && \
+	cp dist/x86_64/kernel.bin target/x86_64/iso/boot/kernel.bin && \
+	grub-mkrescue /usr/lib/grub/i386-pc -o dist/x86_64/kernel.iso target/x86_64/iso
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+.PHONY: build-x86_64
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/18=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 15 / storage = 101 B / avg = 6 B
+# current buf: size = 8162 B / used = 101 B / count = 15 / avg = 6 B
+
+# strcache performance: lookups = 22 / hit rate = 31%
+# hash-table stats:
+# Load=15/8192=0%, Rehash=0, Collisions=0/22=0%
+# Finished Make data base on Sat Aug 06 10:26:12 2022
+
+ 
+make: *** No rule to make target 'all'.  Stop.
+
