@@ -42,7 +42,7 @@ check_cpuid:
     push ecx            
     popfd               ; reset flag register to original
     cmp eax, ecx        ; check if the two flags are identical
-    je .no_cpuid:  
+    je .no_cpuid
 
     ret     
 

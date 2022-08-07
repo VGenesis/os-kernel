@@ -4,8 +4,8 @@ const static size_t NUM_COLS = 80;
 const static size_t NUM_ROWS = 25;
 
 struct Char {
-    uint8_t character,
-    uint8_t color,
+    uint8_t character;
+    uint8_t color;
 };
 
 struct Char* buffer = (struct Char*) 0xb8000;
@@ -30,21 +30,6 @@ void print_clear() {
     }
 }
 
-void print_char(char character) {
-    if(character == '\n'){
-        print_newLine();
-        return;
-    }
-    if(col > NUM_COLS) print_newLine();
-
-    buffer[col + NUM_COLS * row] = (struct Char) {
-        character: (uint8_t) character,
-        color: color,
-    };
-
-    col++;
-}
-
 void print_newLine() {
     col = 0;
     if(row < NUM_ROWS - 1){
@@ -60,6 +45,22 @@ void print_newLine() {
 
     clear_row(NUM_COLS - 1);
 }
+
+void print_char(char character) {
+    if(character == '\n'){
+        print_newLine();
+        return;
+    }
+    if(col > NUM_COLS) print_newLine();
+
+    buffer[col + NUM_COLS * row] = (struct Char) {
+        character: (uint8_t) character,
+        color: color,
+    };
+
+    col++;
+}
+
 
 void print_str(char* str) {
     for(size_t i = 0; 1; i++){
