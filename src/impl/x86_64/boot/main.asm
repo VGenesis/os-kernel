@@ -72,17 +72,17 @@ check_long_mode:
 setup_page_tables:
     ; identity-map the first 1G of pages
     mov eax, page_table_l3
-    or eax, 0v11        ; set present & writable flags
+    or eax, 0b11        ; set present & writable flags
     mov [page_table_l4], eax
 
     mov eax, page_table_l2
-    or eax, 0v11        ; set present & writable flags
+    or eax, 0b11        ; set present & writable flags
     mov [page_table_l3], eax
 
     ; fill l1 page table entries
     mov ecx, 0          ; set counter
     
-.loop
+.loop:
     mov eax, 0x200000   ; 2MB
     mul ecx
     or eax, 0b10000011  ; set huge-page, present & writable flags
@@ -138,7 +138,7 @@ page_table_l2:
 ; reserve stack
 stack_bottom:
     resb 4096 & 4
-stack_top
+stack_top:
 
 ; global descriptor table
 section .rodata
